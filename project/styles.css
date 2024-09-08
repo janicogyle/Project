@@ -1,0 +1,148 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    background-color: #2a4365;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    margin-right: 10px;
+    max-width: 50px;
+    height: 50px;
+
+   
+  }
+  
+  .logo h1 {
+    font-size: 1.5em;
+  }
+  
+  .search-bar {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Layout */
+  .container {
+    display: flex;
+    padding: 20px;
+  }
+  
+  nav {
+    width: 20%;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin: 15px 0;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #555;
+  }
+  
+  main {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  /* Cards */
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card h2 {
+    margin-bottom: 10px;
+    font-size: 1.25em;
+  }
+  
+  .card p {
+    font-size: 1.5em;
+  }
+  
+  .icon {
+    font-size: 40px;
+  }
+  
+  /* Color-specific Cards */
+  .customer-card {
+    background-color: #90cdf4;
+  }
+  
+  .supplies-card {
+    background-color: #f687b3;
+  }
+  
+  .sales-card {
+    background-color: #f6e05e;
+  }
+  
+  .today-card {
+    background-color: #63b3ed;
+  }
+  
+  .monthly-card {
+    background-color: #9f7aea;
+  }
+  
+  /* Footer */
+  footer {
+    display: flex;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .table-container {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #f5f5f5;
+  }
+  
